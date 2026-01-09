@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+server/venv/
+.env
+
+# NodeJS
+node_modules/
+dist/
+.npm/
+
+# Test Data
+test_data/
+tools/test_data/
+test_report_comprehensive.md
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Brain/Agent
+.agent/
+brain/

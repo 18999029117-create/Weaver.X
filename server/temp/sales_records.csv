@@ -1,0 +1,501 @@
+OrderID,Date,SalesPerson,Region,Category,Product,Quantity,UnitPrice,Discount,Status,CustomerName,Gender,Remark,TotalAmount
+1000,2025-02-17,Wang Wu,广东,Home,Prod_0,9,437,0.8,Pending,Cust_0,Female,,3146.4
+1001,2025-02-14,Bob,浙江,Books,Prod_1,26,130,0.8,Completed,Cust_1,Male,Urgent,2704.0
+1002,2025-01-18,Alice,四川,Books,Prod_2,41,373,0.95,Cancelled,Cust_2,Female,OK,14528.349999999999
+1003,2025-01-13,Alice,上海,Books,Prod_3,43,230,1.0,Cancelled,Cust_3,Female,投诉: Quality,9890.0
+1004,2025-03-07,Li Si,北京,Home,Prod_4,41,328,0.9,Pending,Cust_4,Female,OK,12103.2
+1005,2025-03-06,Wang Wu,北京,Home,Prod_5,6,81,0.9,Pending,Cust_5,Female,OK,437.40000000000003
+1006,2025-01-20,Alice,上海,Clothing,Prod_6,47,495,0.8,Returned,Cust_6,Female,退款申请,18612.0
+1007,2025-02-03,Zhang San,四川,Books,Prod_7,49,317,0.8,Pending,Cust_7,Male,,12426.400000000001
+1008,2025-03-09,Bob,广东,Books,Prod_8,30,374,0.8,Returned,Cust_8,Female,投诉: Quality,8976.0
+1009,2025-01-07,Wang Wu,四川,Clothing,Prod_9,16,162,1.0,Completed,Cust_9,Female,,2592.0
+1010,2025-01-04,Li Si,广东,Electronics,Prod_10,41,142,0.8,Completed,Cust_10,Female,,4657.6
+1011,2025-03-06,Li Si,浙江,Books,Prod_11,4,432,0.95,Cancelled,Cust_11,Female,投诉: Quality,1641.6
+1012,2025-02-08,Bob,四川,Books,Prod_12,31,431,0.9,Completed,Cust_12,Female,投诉: Quality,12024.9
+1013,2025-04-01,Alice,四川,Electronics,Prod_13,34,423,0.8,Returned,Cust_13,Female,OK,11505.6
+1014,2025-01-25,Li Si,广东,Home,Prod_14,4,306,1.0,Cancelled,Cust_14,Female,投诉: Quality,1224.0
+1015,2025-01-05,Bob,浙江,Books,Prod_15,1,45,0.9,Returned,Cust_15,Male,Urgent,40.5
+1016,2025-02-10,Wang Wu,浙江,Clothing,Prod_16,1,164,0.95,Pending,Cust_16,Female,退款申请,155.79999999999998
+1017,2025-02-26,Li Si,上海,Electronics,Prod_17,40,158,0.9,Completed,Cust_17,Female,,5688.0
+1018,2025-01-13,Li Si,浙江,Electronics,Prod_18,41,367,1.0,Pending,Cust_18,Male,退款申请,15047.0
+1019,2025-01-09,Wang Wu,四川,Electronics,Prod_19,14,245,0.8,Pending,Cust_19,Female,OK,2744.0
+1020,2025-02-07,Zhang San,四川,Electronics,Prod_20,13,177,0.9,Cancelled,Cust_20,Female,,2070.9
+1021,2025-02-26,Bob,浙江,Books,Prod_21,30,464,1.0,Completed,Cust_21,Female,投诉: Quality,13920.0
+1022,2025-01-18,Zhang San,浙江,Electronics,Prod_22,9,19,0.9,Returned,Cust_22,Female,OK,153.9
+1023,2025-03-20,Alice,上海,Electronics,Prod_23,5,155,0.95,Returned,Cust_23,Male,Urgent,736.25
+1024,2025-01-06,Bob,上海,Books,Prod_24,26,391,0.8,Cancelled,Cust_24,Female,退款申请,8132.8
+1025,2025-01-21,Bob,广东,Books,Prod_25,20,299,0.95,Completed,Cust_25,Female,投诉: Quality,5681.0
+1026,2025-02-19,Li Si,北京,Clothing,Prod_26,35,302,1.0,Pending,Cust_26,Male,OK,10570.0
+1027,2025-01-20,Bob,北京,Clothing,Prod_27,34,328,1.0,Pending,Cust_27,Male,Urgent,11152.0
+1028,2025-01-21,Wang Wu,浙江,Electronics,Prod_28,34,17,0.95,Pending,Cust_28,Male,Urgent,549.1
+1029,2025-01-10,Bob,北京,Clothing,Prod_29,24,310,0.9,Pending,Cust_29,Female,退款申请,6696.0
+1030,2025-03-25,Bob,浙江,Home,Prod_30,46,169,0.9,Returned,Cust_30,Male,OK,6996.6
+1031,2025-03-10,Zhang San,四川,Home,Prod_31,11,173,0.8,Pending,Cust_31,Male,OK,1522.4
+1032,2025-02-16,Zhang San,北京,Books,Prod_32,35,303,0.9,Pending,Cust_32,Male,Urgent,9544.5
+1033,2025-03-16,Zhang San,广东,Electronics,Prod_33,30,214,0.9,Cancelled,Cust_33,Male,,5778.0
+1034,2025-01-25,Alice,上海,Clothing,Prod_34,49,272,0.9,Cancelled,Cust_34,Male,,11995.2
+1035,2025-02-03,Li Si,浙江,Books,Prod_35,50,149,0.95,Returned,Cust_35,Male,OK,7077.5
+1036,2025-02-25,Li Si,浙江,Home,Prod_36,30,205,0.95,Pending,Cust_36,Female,退款申请,5842.5
+1037,2025-03-05,Bob,广东,Clothing,Prod_37,29,473,0.9,Returned,Cust_37,Female,Urgent,12345.300000000001
+1038,2025-01-20,Li Si,浙江,Books,Prod_38,5,328,0.8,Returned,Cust_38,Female,投诉: Quality,1312.0
+1039,2025-02-18,Li Si,上海,Electronics,Prod_39,12,246,1.0,Pending,Cust_39,Female,,2952.0
+1040,2025-01-04,Bob,四川,Clothing,Prod_40,39,92,0.95,Returned,Cust_40,Male,OK,3408.6
+1041,2025-01-01,Zhang San,浙江,Books,Prod_41,35,107,0.9,Pending,Cust_41,Male,Urgent,3370.5
+1042,2025-01-12,Li Si,浙江,Electronics,Prod_42,47,378,0.8,Completed,Cust_42,Female,Urgent,14212.800000000001
+1043,2025-02-03,Zhang San,广东,Clothing,Prod_43,37,127,0.9,Cancelled,Cust_43,Male,OK,4229.1
+1044,2025-03-30,Wang Wu,北京,Books,Prod_44,7,352,1.0,Pending,Cust_44,Female,退款申请,2464.0
+1045,2025-03-16,Zhang San,四川,Clothing,Prod_45,12,151,1.0,Pending,Cust_45,Female,退款申请,1812.0
+1046,2025-02-05,Wang Wu,北京,Home,Prod_46,8,473,0.9,Returned,Cust_46,Male,退款申请,3405.6
+1047,2025-02-27,Zhang San,四川,Clothing,Prod_47,18,127,0.95,Returned,Cust_47,Male,Urgent,2171.7
+1048,2025-03-07,Bob,广东,Clothing,Prod_48,49,99,0.9,Cancelled,Cust_48,Female,投诉: Quality,4365.900000000001
+1049,2025-02-19,Alice,四川,Clothing,Prod_49,17,102,0.95,Cancelled,Cust_49,Male,,1647.3
+1050,2025-03-27,Bob,广东,Clothing,Prod_50,20,215,0.9,Completed,Cust_50,Male,,3870.0
+1051,2025-01-07,Wang Wu,四川,Home,Prod_51,47,131,1.0,Cancelled,Cust_51,Male,投诉: Quality,6157.0
+1052,2025-03-03,Bob,上海,Home,Prod_52,21,337,1.0,Completed,Cust_52,Male,Urgent,7077.0
+1053,2025-01-04,Alice,北京,Books,Prod_53,46,151,1.0,Returned,Cust_53,Male,OK,6946.0
+1054,2025-03-03,Li Si,广东,Clothing,Prod_54,8,256,1.0,Completed,Cust_54,Male,投诉: Quality,2048.0
+1055,2025-01-22,Alice,北京,Books,Prod_55,18,463,1.0,Cancelled,Cust_55,Female,投诉: Quality,8334.0
+1056,2025-03-02,Alice,上海,Electronics,Prod_56,22,351,0.8,Completed,Cust_56,Male,退款申请,6177.6
+1057,2025-02-06,Li Si,北京,Home,Prod_57,48,155,0.95,Pending,Cust_57,Male,,7068.0
+1058,2025-02-09,Bob,北京,Home,Prod_58,46,486,0.95,Pending,Cust_58,Female,投诉: Quality,21238.2
+1059,2025-01-10,Alice,浙江,Books,Prod_59,20,246,1.0,Returned,Cust_59,Female,退款申请,4920.0
+1060,2025-01-13,Alice,北京,Home,Prod_60,44,269,0.9,Cancelled,Cust_60,Female,OK,10652.4
+1061,2025-01-26,Li Si,广东,Electronics,Prod_61,50,223,0.8,Returned,Cust_61,Female,投诉: Quality,8920.0
+1062,2025-02-17,Li Si,四川,Electronics,Prod_62,12,200,0.9,Pending,Cust_62,Male,Urgent,2160.0
+1063,2025-02-23,Zhang San,广东,Clothing,Prod_63,18,127,1.0,Returned,Cust_63,Female,投诉: Quality,2286.0
+1064,2025-01-08,Bob,广东,Home,Prod_64,2,264,1.0,Pending,Cust_64,Female,Urgent,528.0
+1065,2025-04-01,Li Si,浙江,Electronics,Prod_65,48,406,0.95,Completed,Cust_65,Female,Urgent,18513.6
+1066,2025-02-20,Alice,上海,Clothing,Prod_66,34,474,0.8,Returned,Cust_66,Male,OK,12892.800000000001
+1067,2025-02-24,Wang Wu,广东,Books,Prod_67,48,143,0.9,Completed,Cust_67,Male,退款申请,6177.6
+1068,2025-03-03,Alice,北京,Electronics,Prod_68,47,114,0.8,Pending,Cust_68,Female,Urgent,4286.400000000001
+1069,2025-01-03,Bob,上海,Electronics,Prod_69,16,327,0.95,Cancelled,Cust_69,Female,,4970.4
+1070,2025-03-22,Li Si,广东,Electronics,Prod_70,17,191,0.9,Returned,Cust_70,Male,,2922.3
+1071,2025-03-20,Li Si,北京,Home,Prod_71,1,144,0.8,Cancelled,Cust_71,Male,Urgent,115.2
+1072,2025-03-11,Li Si,四川,Books,Prod_72,46,140,0.95,Returned,Cust_72,Male,投诉: Quality,6118.0
+1073,2025-01-10,Bob,上海,Electronics,Prod_73,47,475,0.9,Pending,Cust_73,Female,,20092.5
+1074,2025-02-17,Alice,广东,Home,Prod_74,6,439,1.0,Pending,Cust_74,Female,Urgent,2634.0
+1075,2025-03-14,Li Si,四川,Home,Prod_75,24,368,0.9,Pending,Cust_75,Male,投诉: Quality,7948.8
+1076,2025-03-30,Li Si,四川,Electronics,Prod_76,24,433,0.9,Pending,Cust_76,Female,投诉: Quality,9352.800000000001
+1077,2025-01-15,Bob,广东,Clothing,Prod_77,17,485,1.0,Completed,Cust_77,Female,退款申请,8245.0
+1078,2025-01-09,Bob,四川,Electronics,Prod_78,6,230,1.0,Completed,Cust_78,Male,投诉: Quality,1380.0
+1079,2025-03-10,Li Si,广东,Electronics,Prod_79,45,309,0.8,Completed,Cust_79,Male,OK,11124.0
+1080,2025-01-27,Li Si,上海,Home,Prod_80,7,231,0.8,Cancelled,Cust_80,Female,Urgent,1293.6000000000001
+1081,2025-03-02,Bob,广东,Books,Prod_81,50,483,0.95,Pending,Cust_81,Female,,22942.5
+1082,2025-01-17,Bob,浙江,Electronics,Prod_82,49,224,0.9,Returned,Cust_82,Male,OK,9878.4
+1083,2025-03-08,Bob,广东,Electronics,Prod_83,50,476,0.8,Returned,Cust_83,Male,Urgent,19040.0
+1084,2025-03-21,Li Si,北京,Home,Prod_84,19,248,0.9,Returned,Cust_84,Male,投诉: Quality,4240.8
+1085,2025-01-10,Wang Wu,四川,Electronics,Prod_85,9,381,0.8,Pending,Cust_85,Male,OK,2743.2000000000003
+1086,2025-01-04,Alice,上海,Electronics,Prod_86,29,199,0.8,Cancelled,Cust_86,Female,OK,4616.8
+1087,2025-03-02,Zhang San,北京,Electronics,Prod_87,25,27,1.0,Pending,Cust_87,Female,Urgent,675.0
+1088,2025-02-03,Wang Wu,上海,Electronics,Prod_88,28,94,0.8,Completed,Cust_88,Female,,2105.6
+1089,2025-02-15,Zhang San,浙江,Electronics,Prod_89,38,380,1.0,Completed,Cust_89,Female,OK,14440.0
+1090,2025-02-27,Bob,浙江,Electronics,Prod_90,6,479,0.9,Pending,Cust_90,Male,Urgent,2586.6
+1091,2025-02-28,Wang Wu,上海,Books,Prod_91,2,74,1.0,Pending,Cust_91,Male,,148.0
+1092,2025-03-06,Bob,广东,Books,Prod_92,50,338,0.9,Pending,Cust_92,Male,退款申请,15210.0
+1093,2025-01-13,Bob,四川,Books,Prod_93,7,76,0.9,Completed,Cust_93,Female,OK,478.8
+1094,2025-02-04,Alice,浙江,Books,Prod_94,34,204,0.95,Cancelled,Cust_94,Female,OK,6589.2
+1095,2025-02-26,Wang Wu,上海,Home,Prod_95,3,339,0.8,Completed,Cust_95,Male,投诉: Quality,813.6
+1096,2025-02-21,Alice,浙江,Home,Prod_96,31,328,0.95,Completed,Cust_96,Female,OK,9659.6
+1097,2025-03-12,Li Si,北京,Clothing,Prod_97,32,84,1.0,Completed,Cust_97,Male,退款申请,2688.0
+1098,2025-02-04,Wang Wu,广东,Books,Prod_98,39,452,0.95,Completed,Cust_98,Male,OK,16746.6
+1099,2025-03-14,Zhang San,上海,Books,Prod_99,24,228,0.9,Cancelled,Cust_99,Male,,4924.8
+1100,2025-02-01,Li Si,上海,Electronics,Prod_100,21,275,0.95,Pending,Cust_100,Female,,5486.25
+1101,2025-01-14,Zhang San,浙江,Books,Prod_101,34,153,0.9,Returned,Cust_101,Female,投诉: Quality,4681.8
+1102,2025-03-15,Zhang San,上海,Home,Prod_102,18,89,1.0,Completed,Cust_102,Female,Urgent,1602.0
+1103,2025-02-09,Bob,上海,Electronics,Prod_103,36,485,0.9,Completed,Cust_103,Male,OK,15714.0
+1104,2025-02-01,Li Si,广东,Home,Prod_104,15,365,0.9,Pending,Cust_104,Male,OK,4927.5
+1105,2025-01-06,Wang Wu,广东,Books,Prod_105,9,226,0.95,Completed,Cust_105,Male,投诉: Quality,1932.3
+1106,2025-02-25,Wang Wu,广东,Clothing,Prod_106,15,279,0.95,Completed,Cust_106,Female,OK,3975.75
+1107,2025-03-27,Bob,广东,Home,Prod_107,50,427,0.9,Completed,Cust_107,Male,退款申请,19215.0
+1108,2025-03-16,Bob,四川,Electronics,Prod_108,50,313,0.9,Pending,Cust_108,Male,,14085.0
+1109,2025-01-28,Wang Wu,四川,Home,Prod_109,22,293,1.0,Returned,Cust_109,Female,投诉: Quality,6446.0
+1110,2025-01-31,Zhang San,四川,Clothing,Prod_110,41,182,1.0,Completed,Cust_110,Male,退款申请,7462.0
+1111,2025-03-31,Li Si,浙江,Electronics,Prod_111,13,474,0.8,Cancelled,Cust_111,Male,投诉: Quality,4929.6
+1112,2025-01-29,Zhang San,四川,Books,Prod_112,16,420,0.95,Pending,Cust_112,Male,退款申请,6384.0
+1113,2025-03-24,Bob,浙江,Home,Prod_113,43,117,1.0,Completed,Cust_113,Male,投诉: Quality,5031.0
+1114,2025-02-14,Alice,广东,Home,Prod_114,13,294,0.95,Completed,Cust_114,Female,投诉: Quality,3630.8999999999996
+1115,2025-01-17,Alice,北京,Books,Prod_115,10,233,0.9,Cancelled,Cust_115,Female,投诉: Quality,2097.0
+1116,2025-02-02,Zhang San,上海,Electronics,Prod_116,19,226,0.8,Cancelled,Cust_116,Female,,3435.2000000000003
+1117,2025-01-17,Li Si,北京,Home,Prod_117,9,362,0.9,Completed,Cust_117,Female,,2932.2000000000003
+1118,2025-01-20,Li Si,上海,Electronics,Prod_118,42,168,1.0,Completed,Cust_118,Male,,7056.0
+1119,2025-03-02,Alice,四川,Home,Prod_119,33,446,1.0,Completed,Cust_119,Male,退款申请,14718.0
+1120,2025-03-13,Li Si,广东,Clothing,Prod_120,44,394,0.95,Cancelled,Cust_120,Female,退款申请,16469.2
+1121,2025-02-23,Alice,北京,Books,Prod_121,18,197,0.95,Pending,Cust_121,Female,投诉: Quality,3368.7
+1122,2025-01-13,Li Si,广东,Home,Prod_122,13,411,0.8,Cancelled,Cust_122,Female,投诉: Quality,4274.400000000001
+1123,2025-02-14,Bob,广东,Home,Prod_123,50,187,0.9,Pending,Cust_123,Female,退款申请,8415.0
+1124,2025-01-24,Alice,浙江,Home,Prod_124,32,104,1.0,Cancelled,Cust_124,Male,Urgent,3328.0
+1125,2025-01-01,Li Si,广东,Clothing,Prod_125,20,293,0.8,Returned,Cust_125,Male,Urgent,4688.0
+1126,2025-03-09,Li Si,北京,Books,Prod_126,13,24,0.9,Cancelled,Cust_126,Male,退款申请,280.8
+1127,2025-01-20,Li Si,北京,Clothing,Prod_127,4,137,0.95,Pending,Cust_127,Male,OK,520.6
+1128,2025-03-14,Bob,上海,Books,Prod_128,47,237,0.9,Cancelled,Cust_128,Female,退款申请,10025.1
+1129,2025-02-02,Bob,四川,Books,Prod_129,18,62,0.95,Returned,Cust_129,Male,Urgent,1060.2
+1130,2025-04-01,Alice,北京,Home,Prod_130,22,231,0.95,Returned,Cust_130,Male,退款申请,4827.9
+1131,2025-03-14,Wang Wu,上海,Electronics,Prod_131,50,180,0.95,Returned,Cust_131,Female,OK,8550.0
+1132,2025-01-12,Bob,浙江,Electronics,Prod_132,5,181,1.0,Completed,Cust_132,Male,Urgent,905.0
+1133,2025-01-11,Zhang San,北京,Books,Prod_133,45,38,1.0,Pending,Cust_133,Male,,1710.0
+1134,2025-01-26,Bob,北京,Home,Prod_134,9,44,0.8,Pending,Cust_134,Male,投诉: Quality,316.8
+1135,2025-02-27,Alice,广东,Electronics,Prod_135,1,178,1.0,Cancelled,Cust_135,Male,Urgent,178.0
+1136,2025-01-02,Li Si,四川,Books,Prod_136,33,175,0.9,Cancelled,Cust_136,Female,投诉: Quality,5197.5
+1137,2025-01-02,Bob,上海,Home,Prod_137,30,138,0.95,Pending,Cust_137,Female,,3933.0
+1138,2025-03-20,Alice,浙江,Books,Prod_138,19,59,0.9,Cancelled,Cust_138,Female,OK,1008.9
+1139,2025-01-16,Li Si,四川,Books,Prod_139,24,500,0.95,Completed,Cust_139,Female,,11400.0
+1140,2025-03-18,Li Si,广东,Clothing,Prod_140,10,206,0.95,Completed,Cust_140,Male,退款申请,1957.0
+1141,2025-01-23,Wang Wu,北京,Home,Prod_141,37,259,0.9,Cancelled,Cust_141,Male,OK,8624.7
+1142,2025-02-11,Alice,上海,Books,Prod_142,41,50,0.8,Completed,Cust_142,Male,OK,1640.0
+1143,2025-02-14,Bob,上海,Books,Prod_143,7,393,0.8,Cancelled,Cust_143,Male,OK,2200.8
+1144,2025-02-08,Bob,浙江,Clothing,Prod_144,29,64,0.8,Returned,Cust_144,Male,OK,1484.8000000000002
+1145,2025-01-30,Alice,广东,Electronics,Prod_145,18,62,0.8,Pending,Cust_145,Female,Urgent,892.8000000000001
+1146,2025-02-03,Li Si,北京,Clothing,Prod_146,29,13,0.9,Cancelled,Cust_146,Male,Urgent,339.3
+1147,2025-03-18,Zhang San,浙江,Electronics,Prod_147,33,312,1.0,Completed,Cust_147,Female,投诉: Quality,10296.0
+1148,2025-03-03,Alice,浙江,Clothing,Prod_148,15,196,0.8,Returned,Cust_148,Female,OK,2352.0
+1149,2025-03-25,Wang Wu,广东,Clothing,Prod_149,44,247,1.0,Completed,Cust_149,Male,OK,10868.0
+1150,2025-02-28,Alice,浙江,Home,Prod_150,21,465,0.95,Returned,Cust_150,Male,Urgent,9276.75
+1151,2025-03-03,Wang Wu,浙江,Clothing,Prod_151,23,158,0.8,Cancelled,Cust_151,Female,Urgent,2907.2000000000003
+1152,2025-02-18,Li Si,广东,Electronics,Prod_152,8,387,0.8,Completed,Cust_152,Female,Urgent,2476.8
+1153,2025-01-16,Wang Wu,四川,Books,Prod_153,35,54,0.95,Completed,Cust_153,Male,退款申请,1795.5
+1154,2025-02-15,Zhang San,上海,Clothing,Prod_154,26,342,0.9,Returned,Cust_154,Female,投诉: Quality,8002.8
+1155,2025-01-22,Wang Wu,广东,Books,Prod_155,16,359,0.9,Pending,Cust_155,Male,,5169.6
+1156,2025-02-21,Li Si,四川,Clothing,Prod_156,25,167,1.0,Completed,Cust_156,Female,退款申请,4175.0
+1157,2025-02-25,Alice,四川,Home,Prod_157,20,173,1.0,Pending,Cust_157,Female,Urgent,3460.0
+1158,2025-03-12,Wang Wu,北京,Electronics,Prod_158,43,107,0.95,Returned,Cust_158,Female,Urgent,4370.95
+1159,2025-01-16,Li Si,上海,Electronics,Prod_159,14,484,0.9,Returned,Cust_159,Male,Urgent,6098.400000000001
+1160,2025-03-25,Li Si,上海,Electronics,Prod_160,6,108,0.8,Cancelled,Cust_160,Female,,518.4
+1161,2025-01-21,Wang Wu,四川,Clothing,Prod_161,20,123,0.95,Returned,Cust_161,Male,投诉: Quality,2337.0
+1162,2025-02-06,Zhang San,上海,Clothing,Prod_162,34,220,1.0,Returned,Cust_162,Female,Urgent,7480.0
+1163,2025-02-23,Bob,广东,Electronics,Prod_163,26,26,0.9,Completed,Cust_163,Female,投诉: Quality,608.4
+1164,2025-03-08,Alice,上海,Books,Prod_164,20,81,0.8,Completed,Cust_164,Female,,1296.0
+1165,2025-02-26,Wang Wu,广东,Books,Prod_165,12,170,0.95,Pending,Cust_165,Male,OK,1938.0
+1166,2025-03-20,Bob,浙江,Clothing,Prod_166,18,233,1.0,Returned,Cust_166,Male,投诉: Quality,4194.0
+1167,2025-02-02,Li Si,浙江,Books,Prod_167,22,400,1.0,Pending,Cust_167,Female,OK,8800.0
+1168,2025-01-12,Alice,北京,Books,Prod_168,36,63,0.9,Returned,Cust_168,Female,投诉: Quality,2041.2
+1169,2025-03-18,Alice,四川,Electronics,Prod_169,5,257,0.9,Cancelled,Cust_169,Male,,1156.5
+1170,2025-01-08,Alice,四川,Clothing,Prod_170,5,219,1.0,Returned,Cust_170,Male,投诉: Quality,1095.0
+1171,2025-01-10,Wang Wu,浙江,Home,Prod_171,43,341,0.9,Completed,Cust_171,Male,Urgent,13196.7
+1172,2025-01-24,Alice,广东,Clothing,Prod_172,7,303,0.9,Pending,Cust_172,Female,投诉: Quality,1908.9
+1173,2025-02-07,Bob,上海,Books,Prod_173,13,323,0.8,Completed,Cust_173,Female,投诉: Quality,3359.2000000000003
+1174,2025-01-25,Bob,北京,Electronics,Prod_174,8,88,0.8,Completed,Cust_174,Female,OK,563.2
+1175,2025-01-09,Zhang San,北京,Books,Prod_175,40,223,0.8,Cancelled,Cust_175,Male,Urgent,7136.0
+1176,2025-02-19,Li Si,四川,Home,Prod_176,5,44,0.8,Returned,Cust_176,Male,投诉: Quality,176.0
+1177,2025-02-27,Li Si,广东,Books,Prod_177,1,300,0.9,Cancelled,Cust_177,Male,退款申请,270.0
+1178,2025-02-27,Alice,浙江,Clothing,Prod_178,11,152,1.0,Pending,Cust_178,Male,Urgent,1672.0
+1179,2025-03-20,Alice,浙江,Clothing,Prod_179,28,162,0.95,Returned,Cust_179,Female,OK,4309.2
+1180,2025-02-27,Wang Wu,四川,Electronics,Prod_180,49,204,0.9,Returned,Cust_180,Male,OK,8996.4
+1181,2025-03-20,Bob,四川,Electronics,Prod_181,31,447,0.9,Cancelled,Cust_181,Male,退款申请,12471.300000000001
+1182,2025-02-18,Li Si,四川,Clothing,Prod_182,13,55,0.8,Completed,Cust_182,Female,投诉: Quality,572.0
+1183,2025-02-11,Bob,浙江,Home,Prod_183,4,439,0.8,Cancelled,Cust_183,Male,投诉: Quality,1404.8000000000002
+1184,2025-03-18,Bob,北京,Electronics,Prod_184,50,372,0.95,Completed,Cust_184,Male,OK,17670.0
+1185,2025-01-20,Alice,浙江,Books,Prod_185,2,259,1.0,Completed,Cust_185,Male,Urgent,518.0
+1186,2025-02-11,Alice,四川,Clothing,Prod_186,15,278,0.95,Cancelled,Cust_186,Male,Urgent,3961.5
+1187,2025-01-25,Bob,上海,Electronics,Prod_187,50,369,0.8,Returned,Cust_187,Female,退款申请,14760.0
+1188,2025-01-09,Li Si,四川,Clothing,Prod_188,25,213,0.9,Completed,Cust_188,Male,退款申请,4792.5
+1189,2025-01-24,Li Si,北京,Books,Prod_189,20,310,1.0,Cancelled,Cust_189,Male,退款申请,6200.0
+1190,2025-03-04,Bob,浙江,Home,Prod_190,14,287,0.8,Returned,Cust_190,Male,投诉: Quality,3214.4
+1191,2025-01-08,Li Si,北京,Electronics,Prod_191,38,290,0.95,Returned,Cust_191,Female,Urgent,10469.0
+1192,2025-03-19,Wang Wu,北京,Clothing,Prod_192,48,401,1.0,Cancelled,Cust_192,Female,投诉: Quality,19248.0
+1193,2025-03-29,Alice,广东,Books,Prod_193,16,279,0.8,Completed,Cust_193,Male,投诉: Quality,3571.2000000000003
+1194,2025-01-18,Zhang San,浙江,Home,Prod_194,33,187,0.9,Completed,Cust_194,Female,Urgent,5553.900000000001
+1195,2025-03-09,Wang Wu,浙江,Clothing,Prod_195,50,345,0.8,Pending,Cust_195,Female,退款申请,13800.0
+1196,2025-03-21,Li Si,北京,Electronics,Prod_196,6,220,0.95,Cancelled,Cust_196,Female,投诉: Quality,1254.0
+1197,2025-01-03,Zhang San,浙江,Books,Prod_197,38,330,0.9,Completed,Cust_197,Female,OK,11286.0
+1198,2025-01-13,Zhang San,广东,Books,Prod_198,26,411,0.8,Pending,Cust_198,Female,投诉: Quality,8548.800000000001
+1199,2025-03-19,Wang Wu,上海,Books,Prod_199,28,324,1.0,Completed,Cust_199,Female,OK,9072.0
+1200,2025-02-06,Bob,浙江,Home,Prod_200,39,351,1.0,Cancelled,Cust_200,Female,OK,13689.0
+1201,2025-01-13,Bob,广东,Electronics,Prod_201,39,368,0.9,Pending,Cust_201,Female,,12916.800000000001
+1202,2025-03-13,Bob,上海,Clothing,Prod_202,41,291,0.8,Cancelled,Cust_202,Male,投诉: Quality,9544.800000000001
+1203,2025-02-24,Alice,广东,Clothing,Prod_203,15,294,0.9,Returned,Cust_203,Male,,3969.0
+1204,2025-03-11,Wang Wu,北京,Electronics,Prod_204,35,337,1.0,Returned,Cust_204,Female,Urgent,11795.0
+1205,2025-02-03,Bob,四川,Electronics,Prod_205,31,130,0.95,Pending,Cust_205,Male,,3828.5
+1206,2025-02-15,Li Si,浙江,Home,Prod_206,44,85,0.8,Cancelled,Cust_206,Female,OK,2992.0
+1207,2025-02-01,Wang Wu,上海,Clothing,Prod_207,27,499,0.9,Pending,Cust_207,Male,OK,12125.7
+1208,2025-03-08,Li Si,北京,Home,Prod_208,50,477,0.8,Pending,Cust_208,Male,OK,19080.0
+1209,2025-03-04,Wang Wu,广东,Electronics,Prod_209,13,498,1.0,Returned,Cust_209,Female,Urgent,6474.0
+1210,2025-03-13,Zhang San,上海,Electronics,Prod_210,34,378,0.95,Completed,Cust_210,Female,投诉: Quality,12209.4
+1211,2025-03-08,Alice,上海,Home,Prod_211,28,355,0.9,Pending,Cust_211,Male,Urgent,8946.0
+1212,2025-02-01,Bob,北京,Electronics,Prod_212,20,362,0.95,Completed,Cust_212,Female,Urgent,6878.0
+1213,2025-03-29,Bob,四川,Electronics,Prod_213,1,465,0.9,Completed,Cust_213,Female,,418.5
+1214,2025-02-03,Alice,四川,Home,Prod_214,8,429,0.95,Completed,Cust_214,Male,OK,3260.3999999999996
+1215,2025-03-31,Li Si,北京,Clothing,Prod_215,9,34,0.95,Pending,Cust_215,Female,退款申请,290.7
+1216,2025-03-14,Zhang San,浙江,Books,Prod_216,7,175,0.95,Pending,Cust_216,Female,投诉: Quality,1163.75
+1217,2025-03-20,Alice,四川,Clothing,Prod_217,24,341,0.8,Completed,Cust_217,Male,OK,6547.200000000001
+1218,2025-03-20,Zhang San,浙江,Home,Prod_218,25,439,1.0,Completed,Cust_218,Male,Urgent,10975.0
+1219,2025-03-06,Zhang San,北京,Clothing,Prod_219,18,27,1.0,Completed,Cust_219,Male,退款申请,486.0
+1220,2025-02-02,Zhang San,广东,Clothing,Prod_220,4,68,0.8,Returned,Cust_220,Male,,217.60000000000002
+1221,2025-01-03,Bob,北京,Electronics,Prod_221,22,29,1.0,Returned,Cust_221,Female,Urgent,638.0
+1222,2025-01-29,Bob,上海,Books,Prod_222,7,359,1.0,Cancelled,Cust_222,Female,Urgent,2513.0
+1223,2025-02-06,Li Si,广东,Electronics,Prod_223,25,295,1.0,Pending,Cust_223,Female,OK,7375.0
+1224,2025-03-16,Li Si,北京,Home,Prod_224,19,242,0.9,Pending,Cust_224,Male,退款申请,4138.2
+1225,2025-03-03,Bob,四川,Home,Prod_225,14,45,1.0,Returned,Cust_225,Male,,630.0
+1226,2025-02-27,Zhang San,浙江,Clothing,Prod_226,8,245,0.9,Returned,Cust_226,Female,OK,1764.0
+1227,2025-02-28,Alice,四川,Home,Prod_227,47,299,0.95,Pending,Cust_227,Female,OK,13350.349999999999
+1228,2025-02-03,Zhang San,广东,Electronics,Prod_228,13,129,0.9,Pending,Cust_228,Female,Urgent,1509.3
+1229,2025-02-22,Wang Wu,广东,Electronics,Prod_229,9,122,0.8,Cancelled,Cust_229,Male,,878.4000000000001
+1230,2025-01-18,Zhang San,浙江,Home,Prod_230,24,236,1.0,Pending,Cust_230,Female,,5664.0
+1231,2025-03-24,Bob,四川,Clothing,Prod_231,24,454,0.9,Cancelled,Cust_231,Male,,9806.4
+1232,2025-02-11,Wang Wu,四川,Books,Prod_232,40,64,1.0,Pending,Cust_232,Female,Urgent,2560.0
+1233,2025-02-17,Wang Wu,浙江,Clothing,Prod_233,22,113,0.9,Completed,Cust_233,Male,Urgent,2237.4
+1234,2025-03-21,Wang Wu,广东,Books,Prod_234,40,437,1.0,Completed,Cust_234,Female,,17480.0
+1235,2025-01-22,Bob,四川,Books,Prod_235,43,33,0.95,Cancelled,Cust_235,Male,退款申请,1348.05
+1236,2025-03-22,Wang Wu,广东,Clothing,Prod_236,24,127,0.8,Completed,Cust_236,Female,退款申请,2438.4
+1237,2025-01-27,Alice,广东,Clothing,Prod_237,41,24,0.9,Completed,Cust_237,Male,OK,885.6
+1238,2025-01-29,Zhang San,广东,Books,Prod_238,43,149,0.8,Completed,Cust_238,Female,,5125.6
+1239,2025-02-03,Bob,四川,Home,Prod_239,8,490,0.95,Returned,Cust_239,Female,退款申请,3724.0
+1240,2025-02-04,Wang Wu,浙江,Clothing,Prod_240,38,430,0.8,Pending,Cust_240,Male,退款申请,13072.0
+1241,2025-02-11,Li Si,上海,Clothing,Prod_241,11,292,0.95,Cancelled,Cust_241,Male,退款申请,3051.3999999999996
+1242,2025-02-12,Li Si,浙江,Clothing,Prod_242,1,423,0.95,Cancelled,Cust_242,Male,OK,401.84999999999997
+1243,2025-02-02,Bob,浙江,Home,Prod_243,2,375,0.9,Completed,Cust_243,Female,投诉: Quality,675.0
+1244,2025-01-04,Alice,广东,Clothing,Prod_244,43,91,0.9,Pending,Cust_244,Male,OK,3521.7000000000003
+1245,2025-01-07,Bob,上海,Electronics,Prod_245,41,43,1.0,Pending,Cust_245,Male,Urgent,1763.0
+1246,2025-01-05,Alice,浙江,Books,Prod_246,43,307,0.8,Returned,Cust_246,Female,退款申请,10560.800000000001
+1247,2025-01-11,Alice,上海,Clothing,Prod_247,4,97,0.95,Pending,Cust_247,Female,Urgent,368.59999999999997
+1248,2025-02-05,Zhang San,上海,Electronics,Prod_248,30,43,0.8,Pending,Cust_248,Female,投诉: Quality,1032.0
+1249,2025-01-09,Li Si,四川,Electronics,Prod_249,50,285,1.0,Cancelled,Cust_249,Female,,14250.0
+1250,2025-03-26,Zhang San,上海,Books,Prod_250,35,284,0.9,Completed,Cust_250,Female,OK,8946.0
+1251,2025-02-04,Li Si,四川,Books,Prod_251,12,67,0.95,Returned,Cust_251,Female,OK,763.8
+1252,2025-02-22,Bob,广东,Books,Prod_252,21,383,1.0,Cancelled,Cust_252,Male,投诉: Quality,8043.0
+1253,2025-02-06,Alice,上海,Home,Prod_253,34,489,0.9,Returned,Cust_253,Female,OK,14963.4
+1254,2025-03-21,Bob,北京,Books,Prod_254,31,24,0.8,Cancelled,Cust_254,Female,Urgent,595.2
+1255,2025-01-09,Wang Wu,浙江,Books,Prod_255,3,483,1.0,Completed,Cust_255,Female,,1449.0
+1256,2025-03-14,Zhang San,浙江,Electronics,Prod_256,7,107,1.0,Cancelled,Cust_256,Male,Urgent,749.0
+1257,2025-02-01,Wang Wu,广东,Books,Prod_257,22,218,0.9,Returned,Cust_257,Female,OK,4316.400000000001
+1258,2025-02-18,Li Si,浙江,Clothing,Prod_258,41,44,0.8,Returned,Cust_258,Female,OK,1443.2
+1259,2025-03-18,Wang Wu,广东,Electronics,Prod_259,23,52,0.9,Pending,Cust_259,Male,Urgent,1076.4
+1260,2025-02-12,Bob,广东,Electronics,Prod_260,50,464,0.95,Completed,Cust_260,Male,,22040.0
+1261,2025-02-06,Zhang San,广东,Books,Prod_261,12,261,0.8,Returned,Cust_261,Male,退款申请,2505.6000000000004
+1262,2025-03-19,Alice,浙江,Home,Prod_262,19,129,0.9,Cancelled,Cust_262,Female,退款申请,2205.9
+1263,2025-03-09,Wang Wu,广东,Home,Prod_263,47,145,0.8,Cancelled,Cust_263,Male,Urgent,5452.0
+1264,2025-02-10,Alice,广东,Clothing,Prod_264,35,208,0.95,Completed,Cust_264,Female,投诉: Quality,6916.0
+1265,2025-03-08,Zhang San,四川,Clothing,Prod_265,6,63,0.95,Pending,Cust_265,Female,退款申请,359.09999999999997
+1266,2025-03-30,Alice,北京,Clothing,Prod_266,43,471,0.95,Pending,Cust_266,Male,,19240.35
+1267,2025-01-15,Wang Wu,北京,Books,Prod_267,2,82,0.95,Returned,Cust_267,Male,Urgent,155.79999999999998
+1268,2025-01-14,Li Si,浙江,Clothing,Prod_268,22,260,1.0,Returned,Cust_268,Female,退款申请,5720.0
+1269,2025-02-12,Bob,北京,Clothing,Prod_269,37,335,1.0,Returned,Cust_269,Male,OK,12395.0
+1270,2025-02-02,Wang Wu,浙江,Books,Prod_270,48,213,0.8,Returned,Cust_270,Female,Urgent,8179.200000000001
+1271,2025-02-22,Bob,上海,Clothing,Prod_271,4,64,0.9,Returned,Cust_271,Male,退款申请,230.4
+1272,2025-04-01,Li Si,四川,Books,Prod_272,1,443,0.9,Returned,Cust_272,Male,,398.7
+1273,2025-03-21,Bob,广东,Clothing,Prod_273,16,36,0.8,Cancelled,Cust_273,Male,,460.8
+1274,2025-03-30,Bob,浙江,Books,Prod_274,28,215,1.0,Pending,Cust_274,Male,Urgent,6020.0
+1275,2025-03-28,Wang Wu,广东,Home,Prod_275,29,339,0.9,Pending,Cust_275,Male,OK,8847.9
+1276,2025-02-07,Alice,广东,Electronics,Prod_276,5,262,1.0,Completed,Cust_276,Female,退款申请,1310.0
+1277,2025-02-08,Wang Wu,浙江,Clothing,Prod_277,13,49,1.0,Completed,Cust_277,Female,投诉: Quality,637.0
+1278,2025-03-16,Bob,北京,Electronics,Prod_278,28,334,0.8,Returned,Cust_278,Female,投诉: Quality,7481.6
+1279,2025-02-17,Bob,广东,Electronics,Prod_279,47,486,0.95,Returned,Cust_279,Male,投诉: Quality,21699.899999999998
+1280,2025-01-28,Bob,上海,Electronics,Prod_280,36,276,0.9,Returned,Cust_280,Female,,8942.4
+1281,2025-01-11,Alice,广东,Electronics,Prod_281,19,279,0.95,Pending,Cust_281,Male,Urgent,5035.95
+1282,2025-03-16,Alice,广东,Electronics,Prod_282,39,82,1.0,Completed,Cust_282,Male,退款申请,3198.0
+1283,2025-01-24,Bob,北京,Clothing,Prod_283,19,225,1.0,Cancelled,Cust_283,Female,投诉: Quality,4275.0
+1284,2025-02-05,Li Si,广东,Clothing,Prod_284,11,46,0.8,Returned,Cust_284,Male,Urgent,404.8
+1285,2025-01-08,Li Si,广东,Home,Prod_285,26,382,0.95,Pending,Cust_285,Female,OK,9435.4
+1286,2025-03-09,Li Si,四川,Books,Prod_286,3,72,1.0,Returned,Cust_286,Female,OK,216.0
+1287,2025-01-14,Alice,上海,Clothing,Prod_287,12,329,0.8,Completed,Cust_287,Male,,3158.4
+1288,2025-03-21,Bob,北京,Clothing,Prod_288,34,475,0.9,Pending,Cust_288,Female,Urgent,14535.0
+1289,2025-01-21,Alice,上海,Clothing,Prod_289,13,75,1.0,Returned,Cust_289,Female,退款申请,975.0
+1290,2025-02-07,Li Si,上海,Clothing,Prod_290,5,464,0.8,Pending,Cust_290,Female,Urgent,1856.0
+1291,2025-03-11,Alice,四川,Home,Prod_291,7,242,1.0,Returned,Cust_291,Female,OK,1694.0
+1292,2025-03-19,Alice,上海,Home,Prod_292,48,30,0.8,Returned,Cust_292,Male,Urgent,1152.0
+1293,2025-03-14,Alice,北京,Books,Prod_293,27,225,0.9,Pending,Cust_293,Male,投诉: Quality,5467.5
+1294,2025-02-06,Alice,四川,Home,Prod_294,31,73,0.9,Returned,Cust_294,Male,Urgent,2036.7
+1295,2025-02-08,Bob,浙江,Books,Prod_295,12,436,0.8,Returned,Cust_295,Female,投诉: Quality,4185.6
+1296,2025-02-20,Alice,四川,Home,Prod_296,37,128,1.0,Completed,Cust_296,Male,Urgent,4736.0
+1297,2025-03-23,Alice,四川,Books,Prod_297,2,393,0.95,Completed,Cust_297,Female,退款申请,746.6999999999999
+1298,2025-03-13,Li Si,北京,Home,Prod_298,23,384,1.0,Returned,Cust_298,Female,退款申请,8832.0
+1299,2025-01-05,Alice,四川,Clothing,Prod_299,49,252,0.95,Pending,Cust_299,Female,Urgent,11730.599999999999
+1300,2025-02-08,Li Si,上海,Clothing,Prod_300,23,371,0.8,Pending,Cust_300,Male,OK,6826.400000000001
+1301,2025-02-06,Wang Wu,四川,Clothing,Prod_301,23,59,0.9,Pending,Cust_301,Female,,1221.3
+1302,2025-01-28,Li Si,四川,Home,Prod_302,41,35,1.0,Cancelled,Cust_302,Female,,1435.0
+1303,2025-02-02,Wang Wu,上海,Books,Prod_303,16,337,1.0,Completed,Cust_303,Male,Urgent,5392.0
+1304,2025-01-20,Wang Wu,上海,Home,Prod_304,42,349,0.95,Cancelled,Cust_304,Male,Urgent,13925.099999999999
+1305,2025-02-14,Bob,北京,Home,Prod_305,16,263,0.9,Returned,Cust_305,Female,Urgent,3787.2000000000003
+1306,2025-02-10,Li Si,北京,Home,Prod_306,2,309,0.9,Completed,Cust_306,Male,OK,556.2
+1307,2025-02-09,Wang Wu,上海,Books,Prod_307,17,216,1.0,Returned,Cust_307,Male,Urgent,3672.0
+1308,2025-03-14,Wang Wu,上海,Home,Prod_308,27,360,1.0,Pending,Cust_308,Female,,9720.0
+1309,2025-03-01,Alice,浙江,Electronics,Prod_309,40,183,0.9,Cancelled,Cust_309,Male,Urgent,6588.0
+1310,2025-01-07,Wang Wu,广东,Books,Prod_310,12,473,0.8,Pending,Cust_310,Male,OK,4540.8
+1311,2025-03-22,Alice,广东,Books,Prod_311,30,193,0.9,Returned,Cust_311,Male,投诉: Quality,5211.0
+1312,2025-01-07,Wang Wu,浙江,Home,Prod_312,38,135,1.0,Pending,Cust_312,Male,退款申请,5130.0
+1313,2025-01-30,Zhang San,广东,Books,Prod_313,30,93,0.95,Pending,Cust_313,Female,OK,2650.5
+1314,2025-02-25,Bob,浙江,Books,Prod_314,2,34,1.0,Pending,Cust_314,Female,退款申请,68.0
+1315,2025-01-30,Bob,广东,Books,Prod_315,7,408,0.9,Cancelled,Cust_315,Female,Urgent,2570.4
+1316,2025-01-25,Li Si,上海,Home,Prod_316,36,349,1.0,Returned,Cust_316,Female,Urgent,12564.0
+1317,2025-01-25,Li Si,北京,Home,Prod_317,37,260,1.0,Pending,Cust_317,Female,投诉: Quality,9620.0
+1318,2025-01-31,Li Si,浙江,Clothing,Prod_318,48,268,0.9,Pending,Cust_318,Female,,11577.6
+1319,2025-03-02,Li Si,广东,Books,Prod_319,31,437,0.9,Completed,Cust_319,Male,,12192.300000000001
+1320,2025-03-23,Wang Wu,北京,Books,Prod_320,29,148,0.95,Completed,Cust_320,Male,Urgent,4077.3999999999996
+1321,2025-01-04,Wang Wu,广东,Electronics,Prod_321,48,121,1.0,Pending,Cust_321,Female,投诉: Quality,5808.0
+1322,2025-01-15,Bob,上海,Clothing,Prod_322,27,277,0.9,Pending,Cust_322,Female,退款申请,6731.1
+1323,2025-03-09,Li Si,广东,Clothing,Prod_323,27,445,0.95,Completed,Cust_323,Female,投诉: Quality,11414.25
+1324,2025-02-11,Wang Wu,四川,Home,Prod_324,22,59,0.95,Completed,Cust_324,Male,OK,1233.1
+1325,2025-01-15,Zhang San,四川,Home,Prod_325,34,353,0.8,Pending,Cust_325,Female,Urgent,9601.6
+1326,2025-03-06,Bob,四川,Home,Prod_326,38,37,0.9,Completed,Cust_326,Male,Urgent,1265.4
+1327,2025-03-25,Alice,四川,Home,Prod_327,25,240,0.95,Cancelled,Cust_327,Male,,5700.0
+1328,2025-03-09,Zhang San,四川,Electronics,Prod_328,7,377,0.9,Returned,Cust_328,Female,投诉: Quality,2375.1
+1329,2025-03-05,Li Si,广东,Books,Prod_329,23,393,0.95,Completed,Cust_329,Male,,8587.05
+1330,2025-03-10,Zhang San,广东,Clothing,Prod_330,33,24,1.0,Completed,Cust_330,Female,退款申请,792.0
+1331,2025-02-06,Li Si,广东,Home,Prod_331,46,475,0.9,Returned,Cust_331,Male,,19665.0
+1332,2025-03-12,Li Si,北京,Home,Prod_332,42,327,0.95,Pending,Cust_332,Female,投诉: Quality,13047.3
+1333,2025-03-04,Alice,广东,Electronics,Prod_333,32,388,0.95,Pending,Cust_333,Female,退款申请,11795.199999999999
+1334,2025-03-05,Wang Wu,上海,Home,Prod_334,23,104,0.9,Cancelled,Cust_334,Male,OK,2152.8
+1335,2025-01-10,Zhang San,北京,Clothing,Prod_335,21,423,1.0,Returned,Cust_335,Female,投诉: Quality,8883.0
+1336,2025-01-01,Li Si,浙江,Books,Prod_336,18,158,0.9,Pending,Cust_336,Male,Urgent,2559.6
+1337,2025-01-13,Bob,浙江,Home,Prod_337,20,481,0.8,Cancelled,Cust_337,Male,,7696.0
+1338,2025-02-15,Zhang San,北京,Electronics,Prod_338,7,334,0.95,Pending,Cust_338,Female,,2221.1
+1339,2025-03-05,Wang Wu,上海,Clothing,Prod_339,1,354,1.0,Returned,Cust_339,Male,退款申请,354.0
+1340,2025-03-21,Alice,北京,Electronics,Prod_340,9,359,0.95,Pending,Cust_340,Female,Urgent,3069.45
+1341,2025-02-13,Li Si,北京,Books,Prod_341,35,297,1.0,Cancelled,Cust_341,Male,,10395.0
+1342,2025-02-19,Li Si,浙江,Clothing,Prod_342,4,257,0.9,Completed,Cust_342,Female,退款申请,925.2
+1343,2025-02-22,Zhang San,浙江,Clothing,Prod_343,41,155,0.9,Pending,Cust_343,Male,Urgent,5719.5
+1344,2025-03-06,Zhang San,浙江,Clothing,Prod_344,48,388,0.9,Completed,Cust_344,Male,OK,16761.600000000002
+1345,2025-03-26,Wang Wu,浙江,Clothing,Prod_345,45,318,1.0,Returned,Cust_345,Female,投诉: Quality,14310.0
+1346,2025-03-30,Zhang San,广东,Electronics,Prod_346,40,357,0.8,Completed,Cust_346,Male,退款申请,11424.0
+1347,2025-02-03,Bob,广东,Electronics,Prod_347,21,311,0.9,Pending,Cust_347,Male,Urgent,5877.900000000001
+1348,2025-03-15,Wang Wu,上海,Books,Prod_348,40,54,0.95,Pending,Cust_348,Male,退款申请,2052.0
+1349,2025-02-19,Bob,北京,Books,Prod_349,36,253,0.8,Completed,Cust_349,Female,Urgent,7286.400000000001
+1350,2025-03-27,Zhang San,上海,Clothing,Prod_350,21,392,0.95,Cancelled,Cust_350,Male,,7820.4
+1351,2025-03-29,Wang Wu,北京,Books,Prod_351,46,450,0.9,Completed,Cust_351,Male,OK,18630.0
+1352,2025-03-08,Li Si,四川,Electronics,Prod_352,13,154,0.9,Completed,Cust_352,Male,,1801.8
+1353,2025-04-01,Zhang San,四川,Electronics,Prod_353,30,286,0.95,Completed,Cust_353,Male,,8151.0
+1354,2025-02-11,Wang Wu,四川,Clothing,Prod_354,40,387,1.0,Completed,Cust_354,Female,,15480.0
+1355,2025-01-15,Alice,广东,Home,Prod_355,43,116,0.95,Cancelled,Cust_355,Male,,4738.599999999999
+1356,2025-02-28,Alice,北京,Clothing,Prod_356,20,68,0.95,Returned,Cust_356,Male,OK,1292.0
+1357,2025-01-26,Alice,浙江,Clothing,Prod_357,18,219,1.0,Returned,Cust_357,Male,Urgent,3942.0
+1358,2025-01-21,Alice,上海,Books,Prod_358,18,444,1.0,Pending,Cust_358,Female,OK,7992.0
+1359,2025-01-05,Bob,上海,Clothing,Prod_359,16,173,1.0,Pending,Cust_359,Male,退款申请,2768.0
+1360,2025-03-02,Zhang San,四川,Home,Prod_360,35,157,0.8,Returned,Cust_360,Female,退款申请,4396.0
+1361,2025-01-30,Li Si,北京,Home,Prod_361,27,116,0.9,Returned,Cust_361,Male,投诉: Quality,2818.8
+1362,2025-02-03,Wang Wu,浙江,Clothing,Prod_362,6,478,0.95,Completed,Cust_362,Female,OK,2724.6
+1363,2025-03-22,Wang Wu,广东,Home,Prod_363,50,70,1.0,Pending,Cust_363,Female,退款申请,3500.0
+1364,2025-01-31,Li Si,上海,Clothing,Prod_364,47,25,0.8,Cancelled,Cust_364,Female,,940.0
+1365,2025-03-21,Bob,四川,Electronics,Prod_365,6,353,0.9,Returned,Cust_365,Female,投诉: Quality,1906.2
+1366,2025-02-15,Wang Wu,广东,Home,Prod_366,19,424,0.9,Pending,Cust_366,Male,,7250.400000000001
+1367,2025-01-12,Bob,上海,Clothing,Prod_367,14,107,0.8,Completed,Cust_367,Female,投诉: Quality,1198.4
+1368,2025-03-30,Wang Wu,北京,Clothing,Prod_368,15,341,0.9,Completed,Cust_368,Female,OK,4603.5
+1369,2025-01-17,Li Si,四川,Home,Prod_369,14,11,0.8,Completed,Cust_369,Female,Urgent,123.2
+1370,2025-01-09,Li Si,北京,Books,Prod_370,12,390,1.0,Returned,Cust_370,Female,投诉: Quality,4680.0
+1371,2025-01-18,Zhang San,广东,Electronics,Prod_371,5,379,0.95,Completed,Cust_371,Male,退款申请,1800.25
+1372,2025-01-20,Zhang San,浙江,Electronics,Prod_372,28,209,1.0,Completed,Cust_372,Male,投诉: Quality,5852.0
+1373,2025-03-05,Li Si,四川,Clothing,Prod_373,9,261,0.95,Cancelled,Cust_373,Female,OK,2231.5499999999997
+1374,2025-01-30,Bob,上海,Electronics,Prod_374,47,248,0.8,Returned,Cust_374,Female,退款申请,9324.800000000001
+1375,2025-02-01,Bob,四川,Books,Prod_375,7,457,0.8,Cancelled,Cust_375,Female,退款申请,2559.2000000000003
+1376,2025-03-28,Li Si,上海,Books,Prod_376,48,95,0.8,Completed,Cust_376,Female,投诉: Quality,3648.0
+1377,2025-02-22,Li Si,浙江,Books,Prod_377,11,92,0.9,Completed,Cust_377,Male,Urgent,910.8000000000001
+1378,2025-03-22,Alice,上海,Clothing,Prod_378,40,128,0.9,Cancelled,Cust_378,Male,投诉: Quality,4608.0
+1379,2025-03-15,Li Si,四川,Books,Prod_379,42,316,1.0,Cancelled,Cust_379,Female,Urgent,13272.0
+1380,2025-03-19,Alice,上海,Books,Prod_380,35,494,0.8,Returned,Cust_380,Female,,13832.0
+1381,2025-02-10,Li Si,浙江,Electronics,Prod_381,30,197,1.0,Returned,Cust_381,Male,Urgent,5910.0
+1382,2025-01-07,Bob,广东,Clothing,Prod_382,46,362,0.8,Cancelled,Cust_382,Male,,13321.6
+1383,2025-01-13,Bob,广东,Books,Prod_383,36,495,0.9,Cancelled,Cust_383,Male,OK,16038.0
+1384,2025-01-04,Zhang San,浙江,Clothing,Prod_384,3,447,0.9,Cancelled,Cust_384,Male,退款申请,1206.9
+1385,2025-01-25,Zhang San,四川,Home,Prod_385,9,388,0.9,Completed,Cust_385,Male,退款申请,3142.8
+1386,2025-03-31,Wang Wu,广东,Clothing,Prod_386,22,227,1.0,Returned,Cust_386,Male,OK,4994.0
+1387,2025-01-17,Alice,广东,Electronics,Prod_387,45,220,0.9,Cancelled,Cust_387,Female,投诉: Quality,8910.0
+1388,2025-03-08,Li Si,四川,Clothing,Prod_388,27,485,0.9,Cancelled,Cust_388,Male,投诉: Quality,11785.5
+1389,2025-03-09,Zhang San,浙江,Clothing,Prod_389,40,125,0.95,Cancelled,Cust_389,Male,退款申请,4750.0
+1390,2025-02-14,Alice,上海,Clothing,Prod_390,16,210,0.95,Pending,Cust_390,Female,OK,3192.0
+1391,2025-01-31,Bob,浙江,Books,Prod_391,7,72,0.8,Cancelled,Cust_391,Female,,403.20000000000005
+1392,2025-03-07,Zhang San,上海,Books,Prod_392,41,154,1.0,Completed,Cust_392,Female,Urgent,6314.0
+1393,2025-03-17,Zhang San,四川,Books,Prod_393,48,182,1.0,Pending,Cust_393,Female,OK,8736.0
+1394,2025-01-12,Alice,浙江,Electronics,Prod_394,31,67,0.8,Cancelled,Cust_394,Female,Urgent,1661.6000000000001
+1395,2025-03-18,Wang Wu,北京,Home,Prod_395,30,233,0.8,Completed,Cust_395,Male,OK,5592.0
+1396,2025-01-19,Wang Wu,上海,Books,Prod_396,46,385,1.0,Completed,Cust_396,Male,Urgent,17710.0
+1397,2025-03-12,Bob,广东,Home,Prod_397,35,418,1.0,Completed,Cust_397,Male,,14630.0
+1398,2025-01-12,Alice,浙江,Home,Prod_398,35,216,0.95,Completed,Cust_398,Female,OK,7182.0
+1399,2025-01-06,Bob,上海,Electronics,Prod_399,9,156,0.9,Returned,Cust_399,Male,OK,1263.6000000000001
+1400,2025-03-04,Li Si,北京,Home,Prod_400,3,311,1.0,Cancelled,Cust_400,Female,退款申请,933.0
+1401,2025-03-10,Bob,浙江,Home,Prod_401,10,388,0.8,Completed,Cust_401,Male,OK,3104.0
+1402,2025-01-28,Li Si,四川,Electronics,Prod_402,40,283,0.95,Cancelled,Cust_402,Male,退款申请,10754.0
+1403,2025-01-28,Li Si,广东,Electronics,Prod_403,46,481,1.0,Pending,Cust_403,Male,退款申请,22126.0
+1404,2025-02-10,Wang Wu,浙江,Books,Prod_404,44,466,0.8,Returned,Cust_404,Female,退款申请,16403.2
+1405,2025-01-29,Li Si,浙江,Electronics,Prod_405,30,327,1.0,Pending,Cust_405,Female,,9810.0
+1406,2025-02-14,Li Si,北京,Electronics,Prod_406,28,39,0.8,Cancelled,Cust_406,Female,投诉: Quality,873.6
+1407,2025-02-03,Bob,浙江,Books,Prod_407,4,249,0.8,Cancelled,Cust_407,Female,Urgent,796.8000000000001
+1408,2025-02-21,Zhang San,北京,Clothing,Prod_408,27,18,0.9,Cancelled,Cust_408,Female,退款申请,437.40000000000003
+1409,2025-01-28,Zhang San,北京,Clothing,Prod_409,14,209,0.8,Cancelled,Cust_409,Female,投诉: Quality,2340.8
+1410,2025-03-18,Wang Wu,广东,Books,Prod_410,3,347,0.9,Pending,Cust_410,Female,,936.9
+1411,2025-01-05,Bob,四川,Electronics,Prod_411,23,305,0.9,Completed,Cust_411,Male,退款申请,6313.5
+1412,2025-03-09,Wang Wu,北京,Electronics,Prod_412,12,71,0.95,Pending,Cust_412,Male,投诉: Quality,809.4
+1413,2025-01-08,Bob,北京,Clothing,Prod_413,32,198,0.8,Pending,Cust_413,Female,OK,5068.8
+1414,2025-02-08,Alice,上海,Electronics,Prod_414,48,81,1.0,Cancelled,Cust_414,Female,Urgent,3888.0
+1415,2025-02-08,Bob,四川,Electronics,Prod_415,3,301,0.95,Returned,Cust_415,Male,Urgent,857.8499999999999
+1416,2025-03-11,Zhang San,上海,Electronics,Prod_416,8,121,0.8,Completed,Cust_416,Female,Urgent,774.4000000000001
+1417,2025-03-27,Alice,浙江,Home,Prod_417,41,268,0.9,Completed,Cust_417,Male,Urgent,9889.2
+1418,2025-03-28,Li Si,上海,Electronics,Prod_418,50,243,1.0,Pending,Cust_418,Female,投诉: Quality,12150.0
+1419,2025-01-05,Zhang San,四川,Clothing,Prod_419,41,19,0.9,Cancelled,Cust_419,Female,,701.1
+1420,2025-03-30,Bob,上海,Books,Prod_420,25,308,0.95,Cancelled,Cust_420,Male,投诉: Quality,7315.0
+1421,2025-02-03,Alice,四川,Clothing,Prod_421,15,382,0.8,Completed,Cust_421,Female,退款申请,4584.0
+1422,2025-02-14,Zhang San,北京,Home,Prod_422,41,310,0.95,Completed,Cust_422,Female,OK,12074.5
+1423,2025-02-01,Li Si,上海,Electronics,Prod_423,11,118,0.8,Cancelled,Cust_423,Male,,1038.4
+1424,2025-02-21,Alice,四川,Clothing,Prod_424,24,29,0.8,Pending,Cust_424,Female,,556.8000000000001
+1425,2025-02-20,Alice,浙江,Electronics,Prod_425,43,10,0.95,Cancelled,Cust_425,Female,Urgent,408.5
+1426,2025-01-09,Wang Wu,四川,Books,Prod_426,5,62,0.95,Completed,Cust_426,Female,OK,294.5
+1427,2025-01-29,Zhang San,浙江,Electronics,Prod_427,21,24,1.0,Completed,Cust_427,Female,投诉: Quality,504.0
+1428,2025-02-09,Zhang San,北京,Home,Prod_428,25,438,1.0,Cancelled,Cust_428,Male,OK,10950.0
+1429,2025-02-03,Zhang San,浙江,Clothing,Prod_429,4,196,0.9,Returned,Cust_429,Female,Urgent,705.6
+1430,2025-02-07,Alice,浙江,Electronics,Prod_430,11,474,1.0,Pending,Cust_430,Female,投诉: Quality,5214.0
+1431,2025-03-28,Wang Wu,浙江,Home,Prod_431,18,227,0.9,Cancelled,Cust_431,Male,投诉: Quality,3677.4
+1432,2025-01-27,Bob,北京,Electronics,Prod_432,12,78,1.0,Pending,Cust_432,Male,投诉: Quality,936.0
+1433,2025-02-17,Alice,四川,Home,Prod_433,23,302,1.0,Returned,Cust_433,Male,Urgent,6946.0
+1434,2025-02-07,Bob,浙江,Home,Prod_434,13,391,1.0,Completed,Cust_434,Male,投诉: Quality,5083.0
+1435,2025-01-02,Alice,上海,Clothing,Prod_435,2,334,0.95,Returned,Cust_435,Female,OK,634.6
+1436,2025-03-11,Wang Wu,上海,Electronics,Prod_436,27,18,0.8,Completed,Cust_436,Female,OK,388.8
+1437,2025-02-08,Wang Wu,上海,Clothing,Prod_437,45,346,0.8,Cancelled,Cust_437,Male,投诉: Quality,12456.0
+1438,2025-03-30,Bob,上海,Electronics,Prod_438,39,384,0.9,Cancelled,Cust_438,Female,退款申请,13478.4
+1439,2025-02-19,Zhang San,四川,Books,Prod_439,44,51,0.8,Pending,Cust_439,Female,投诉: Quality,1795.2
+1440,2025-03-31,Wang Wu,浙江,Books,Prod_440,36,20,0.95,Cancelled,Cust_440,Female,Urgent,684.0
+1441,2025-02-28,Alice,浙江,Electronics,Prod_441,48,472,1.0,Completed,Cust_441,Female,OK,22656.0
+1442,2025-01-31,Wang Wu,四川,Home,Prod_442,6,168,0.9,Completed,Cust_442,Female,,907.2
+1443,2025-03-04,Bob,上海,Home,Prod_443,49,304,0.95,Pending,Cust_443,Male,OK,14151.199999999999
+1444,2025-01-09,Zhang San,广东,Clothing,Prod_444,47,55,1.0,Pending,Cust_444,Female,,2585.0
+1445,2025-03-27,Alice,广东,Electronics,Prod_445,40,488,0.9,Cancelled,Cust_445,Female,投诉: Quality,17568.0
+1446,2025-01-06,Li Si,四川,Electronics,Prod_446,34,497,0.8,Pending,Cust_446,Female,投诉: Quality,13518.400000000001
+1447,2025-03-08,Bob,广东,Home,Prod_447,30,166,0.9,Returned,Cust_447,Male,投诉: Quality,4482.0
+1448,2025-03-25,Alice,四川,Books,Prod_448,35,77,0.8,Cancelled,Cust_448,Female,投诉: Quality,2156.0
+1449,2025-03-18,Bob,四川,Books,Prod_449,27,165,1.0,Completed,Cust_449,Male,,4455.0
+1450,2025-03-24,Bob,广东,Electronics,Prod_450,40,480,0.9,Returned,Cust_450,Male,投诉: Quality,17280.0
+1451,2025-01-27,Wang Wu,浙江,Electronics,Prod_451,3,334,1.0,Cancelled,Cust_451,Male,退款申请,1002.0
+1452,2025-01-15,Zhang San,浙江,Clothing,Prod_452,39,35,0.8,Pending,Cust_452,Female,退款申请,1092.0
+1453,2025-02-14,Alice,浙江,Electronics,Prod_453,39,176,1.0,Returned,Cust_453,Male,退款申请,6864.0
+1454,2025-03-06,Li Si,北京,Clothing,Prod_454,16,338,0.95,Cancelled,Cust_454,Male,OK,5137.599999999999
+1455,2025-01-09,Zhang San,浙江,Books,Prod_455,38,284,0.9,Cancelled,Cust_455,Female,,9712.800000000001
+1456,2025-02-02,Wang Wu,浙江,Electronics,Prod_456,49,310,1.0,Cancelled,Cust_456,Female,退款申请,15190.0
+1457,2025-03-12,Alice,上海,Books,Prod_457,35,109,0.95,Returned,Cust_457,Female,OK,3624.25
+1458,2025-03-27,Zhang San,浙江,Books,Prod_458,42,474,0.9,Pending,Cust_458,Male,Urgent,17917.2
+1459,2025-03-21,Alice,广东,Electronics,Prod_459,6,483,0.8,Completed,Cust_459,Female,Urgent,2318.4
+1460,2025-02-22,Bob,四川,Electronics,Prod_460,12,82,1.0,Completed,Cust_460,Female,,984.0
+1461,2025-01-11,Zhang San,浙江,Home,Prod_461,50,424,1.0,Pending,Cust_461,Female,退款申请,21200.0
+1462,2025-01-18,Bob,浙江,Clothing,Prod_462,3,24,1.0,Pending,Cust_462,Female,退款申请,72.0
+1463,2025-03-20,Alice,上海,Books,Prod_463,28,266,0.9,Completed,Cust_463,Male,Urgent,6703.2
+1464,2025-02-09,Li Si,四川,Clothing,Prod_464,19,262,0.95,Pending,Cust_464,Female,投诉: Quality,4729.099999999999
+1465,2025-01-29,Bob,北京,Books,Prod_465,29,153,1.0,Completed,Cust_465,Female,Urgent,4437.0
+1466,2025-01-12,Zhang San,北京,Clothing,Prod_466,8,220,0.8,Returned,Cust_466,Female,,1408.0
+1467,2025-03-23,Zhang San,浙江,Books,Prod_467,24,367,0.95,Returned,Cust_467,Female,退款申请,8367.6
+1468,2025-01-31,Li Si,北京,Books,Prod_468,48,166,0.8,Pending,Cust_468,Male,Urgent,6374.400000000001
+1469,2025-02-11,Bob,四川,Home,Prod_469,25,75,1.0,Completed,Cust_469,Female,Urgent,1875.0
+1470,2025-02-03,Wang Wu,广东,Electronics,Prod_470,18,34,1.0,Pending,Cust_470,Female,退款申请,612.0
+1471,2025-01-22,Wang Wu,四川,Clothing,Prod_471,4,150,0.9,Cancelled,Cust_471,Male,投诉: Quality,540.0
+1472,2025-02-24,Bob,上海,Electronics,Prod_472,49,444,0.8,Completed,Cust_472,Female,Urgent,17404.8
+1473,2025-03-01,Wang Wu,上海,Books,Prod_473,41,147,0.9,Pending,Cust_473,Male,投诉: Quality,5424.3
+1474,2025-01-15,Alice,四川,Home,Prod_474,3,192,0.8,Returned,Cust_474,Female,退款申请,460.8
+1475,2025-03-28,Alice,四川,Clothing,Prod_475,1,71,0.8,Pending,Cust_475,Male,,56.800000000000004
+1476,2025-02-02,Alice,浙江,Electronics,Prod_476,23,64,0.9,Completed,Cust_476,Female,退款申请,1324.8
+1477,2025-03-09,Bob,浙江,Clothing,Prod_477,19,457,0.95,Cancelled,Cust_477,Male,退款申请,8248.85
+1478,2025-02-19,Zhang San,上海,Home,Prod_478,44,472,0.8,Cancelled,Cust_478,Male,退款申请,16614.4
+1479,2025-02-02,Wang Wu,广东,Electronics,Prod_479,31,278,1.0,Completed,Cust_479,Male,投诉: Quality,8618.0
+1480,2025-01-13,Wang Wu,浙江,Books,Prod_480,29,404,0.8,Cancelled,Cust_480,Female,OK,9372.800000000001
+1481,2025-03-06,Wang Wu,广东,Home,Prod_481,28,473,0.95,Pending,Cust_481,Female,投诉: Quality,12581.8
+1482,2025-02-03,Zhang San,四川,Books,Prod_482,21,484,0.9,Cancelled,Cust_482,Female,退款申请,9147.6
+1483,2025-01-30,Zhang San,北京,Home,Prod_483,32,149,0.9,Pending,Cust_483,Male,,4291.2
+1484,2025-03-27,Wang Wu,北京,Home,Prod_484,39,460,0.8,Completed,Cust_484,Male,Urgent,14352.0
+1485,2025-03-13,Wang Wu,北京,Books,Prod_485,36,290,1.0,Cancelled,Cust_485,Female,Urgent,10440.0
+1486,2025-01-15,Bob,广东,Clothing,Prod_486,3,496,1.0,Returned,Cust_486,Female,,1488.0
+1487,2025-01-07,Alice,浙江,Home,Prod_487,22,111,1.0,Completed,Cust_487,Male,退款申请,2442.0
+1488,2025-03-12,Alice,广东,Home,Prod_488,18,377,1.0,Completed,Cust_488,Female,OK,6786.0
+1489,2025-03-28,Bob,上海,Electronics,Prod_489,15,491,1.0,Completed,Cust_489,Female,Urgent,7365.0
+1490,2025-03-01,Alice,浙江,Books,Prod_490,22,191,0.8,Pending,Cust_490,Female,退款申请,3361.6000000000004
+1491,2025-03-25,Li Si,广东,Books,Prod_491,9,482,0.9,Pending,Cust_491,Female,Urgent,3904.2000000000003
+1492,2025-01-09,Zhang San,广东,Clothing,Prod_492,19,388,1.0,Completed,Cust_492,Female,退款申请,7372.0
+1493,2025-01-23,Bob,浙江,Clothing,Prod_493,12,299,0.8,Cancelled,Cust_493,Female,,2870.4
+1494,2025-01-24,Zhang San,上海,Books,Prod_494,2,104,0.9,Cancelled,Cust_494,Female,,187.20000000000002
+1495,2025-01-26,Li Si,上海,Clothing,Prod_495,45,240,0.8,Completed,Cust_495,Male,,8640.0
+1496,2025-03-13,Li Si,上海,Books,Prod_496,24,64,0.9,Completed,Cust_496,Female,,1382.4
+1497,2025-03-16,Wang Wu,浙江,Clothing,Prod_497,12,82,0.95,Returned,Cust_497,Male,Urgent,934.8
+1498,2025-02-18,Bob,北京,Clothing,Prod_498,24,362,0.8,Cancelled,Cust_498,Female,投诉: Quality,6950.400000000001
+1499,2025-02-19,Li Si,四川,Home,Prod_499,5,463,0.8,Pending,Cust_499,Female,,1852.0

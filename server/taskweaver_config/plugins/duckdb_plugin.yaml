@@ -1,0 +1,24 @@
+name: duckdb_query
+enabled: true
+description: |
+  执行 DuckDB SQL 查询。
+  用于在内存数据库中查询已加载的表格数据。
+
+parameters:
+  - name: sql
+    type: string
+    description: 要执行的 SQL 查询语句
+    required: true
+
+returns:
+  - name: result
+    type: list
+    description: 查询结果列表，每个元素是一行数据的字典
+
+examples:
+  - query: "统计销售总额"
+    sql: "SELECT SUM(amount) as total FROM sales"
+  - query: "按产品分组统计数量"
+    sql: "SELECT product, COUNT(*) as count FROM orders GROUP BY product"
+  - query: "查找销售额最高的前10名"
+    sql: "SELECT * FROM sales ORDER BY amount DESC LIMIT 10"
