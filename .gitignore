@@ -24,6 +24,14 @@ Thumbs.db
 .vscode/
 .idea/
 
+
 # Brain/Agent
 .agent/
 brain/
+
+# Cleanup
+test_*.py
+benchmark_result.txt
+test_report_comprehensive.md
+server/temp/
+*.log
